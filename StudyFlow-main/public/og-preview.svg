@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="55%" stop-color="#134e4a" />
+      <stop offset="100%" stop-color="#0f766e" />
+    </linearGradient>
+    <linearGradient id="badge" x1="0" y1="0" x2="96" y2="96" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#14b8a6" />
+      <stop offset="100%" stop-color="#10b981" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)" />
+  <circle cx="1050" cy="120" r="260" fill="#14b8a6" fill-opacity="0.12" />
+  <circle cx="180" cy="540" r="220" fill="#10b981" fill-opacity="0.1" />
+  <g transform="translate(100, 140)">
+    <rect width="88" height="88" rx="22" fill="url(#badge)" />
+    <path d="M44 22L16 35L44 48L72 35L44 22Z" stroke="#fff" stroke-width="4.5" stroke-linejoin="round" fill="rgba(255,255,255,0.18)" />
+    <path d="M27 42V57C27 61.5 34.6 66 44 66C53.4 66 61 61.5 61 57V42" stroke="#fff" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+  <text x="212" y="198" fill="#5eead4" font-family="Plus Jakarta Sans, sans-serif" font-size="24" font-weight="700" letter-spacing="1.5">
+    PLANEJADOR DE ESTUDOS PESSOAL
+  </text>
+  <text x="100" y="310" fill="#ffffff" font-family="Plus Jakarta Sans, sans-serif" font-size="72" font-weight="700">
+    StudyFlow
+  </text>
+  <text x="100" y="385" fill="#cbd5e1" font-family="DM Sans, sans-serif" font-size="34" font-weight="400">
+    Organize metas, acompanhe sub-tarefas e evolua com constância.
+  </text>
+  <g transform="translate(100, 445)">
+    <rect width="230" height="54" rx="12" fill="rgba(255,255,255,0.1)" stroke="rgba(255,255,255,0.2)" />
+    <text x="28" y="34" fill="#f8fafc" font-family="JetBrains Mono, monospace" font-size="20" font-weight="600">
+      ✓ Checklists &amp; Metas
+    </text>
+    <rect x="255" width="230" height="54" rx="12" fill="rgba(255,255,255,0.1)" stroke="rgba(255,255,255,0.2)" />
+    <text x="283" y="34" fill="#f8fafc" font-family="JetBrains Mono, monospace" font-size="20" font-weight="600">
+      ✓ Lista &amp; Kanban
+    </text>
+    <rect x="510" width="230" height="54" rx="12" fill="rgba(255,255,255,0.1)" stroke="rgba(255,255,255,0.2)" />
+    <text x="542" y="34" fill="#f8fafc" font-family="JetBrains Mono, monospace" font-size="20" font-weight="600">
+      ✓ 100% Offline-First
+    </text>
+  </g>
+</svg>
